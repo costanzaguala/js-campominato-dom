@@ -1,0 +1,47 @@
+/* RESET */ 
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    padding: 30px 0 ;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#start {
+    padding: 20px;
+}
+
+.grid-numbers {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #7FFFD4;
+    padding: 60px;
+}
+
+.cell-style {
+    width: calc((100% / 10) - 10px);
+    height: calc((100% / 10) - 10px);
+    line-height: 2em;
+    text-align: center;
+    border: 1px solid black;
+    margin: 5px;
+    padding: 18px; 
+}
+
+.button-start-display {
+    display: none;
+}
+
+.cell-color {
+    background-color: pink;
+}
